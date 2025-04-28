@@ -1,19 +1,26 @@
 using UnityEngine;
+using TrocoATempo;
+using Unity.VisualScripting;
 
 namespace TrocoATempo
 {
     public class Main : MonoBehaviour
     {
         public SacolaController sacola;
+        public Sounds sound;
+        
+        
 
         void Start()
         {
             Debug.Log("Jogo iniciado.");
+            sound.Iniciar();
+            
         }
 
         void Update()
         {
-            // Aqui você pode checar se todos produtos foram passados, etc.
+            
         }
 
         public void ProximaFase()
@@ -23,4 +30,5 @@ namespace TrocoATempo
             // Aqui você chama o próximo cliente, etc.
         }
     }
+
 }

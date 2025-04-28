@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 25d6575fa362d8b4aa2da49f89b84206
+guid: b62b68127c6008e4584841878dd83638
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4132889815005334413
-    second: elvira-handsprite_0
+      213: -8841490917199087839
+    second: table_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: elvira-handsprite_0
+      name: table_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 640
-        height: 740
+        width: 1920
+        height: 358
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d8b0937c369fa5930800000000000000
-      internalID: 4132889815005334413
+      spriteID: 1277183ead6bc4580800000000000000
+      internalID: -8841490917199087839
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      elvira-handsprite_0: 4132889815005334413
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
