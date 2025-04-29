@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cash register empty_0: 659182344381239312
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

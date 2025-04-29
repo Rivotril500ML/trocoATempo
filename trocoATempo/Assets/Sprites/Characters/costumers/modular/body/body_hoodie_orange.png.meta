@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      body_hoodie_orange_0: -6664270769264878466
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

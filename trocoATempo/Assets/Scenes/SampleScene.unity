@@ -42,8 +42,7 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 13
-  m_BakeOnSceneLoad: 0
+  serializedVersion: 12
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -1077,7 +1076,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotacaoMaxima: 45
   suavidadeRotacao: 6.5
-  ClosedHand: {fileID: -3777569201786988421, guid: f63811a67f4ae164d8c61ef619543230, type: 3}
+  ClosedHand: {fileID: 1833908496}
+  HandPoint: {fileID: 1764711815}
 --- !u!1 &1011800018
 GameObject:
   m_ObjectHideFlags: 0
@@ -1644,7 +1644,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1833908497
 Transform:
   m_ObjectHideFlags: 0

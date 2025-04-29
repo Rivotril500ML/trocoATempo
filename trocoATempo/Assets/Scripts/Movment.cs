@@ -1,3 +1,4 @@
+using System.Threading.Tasks;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -13,24 +14,14 @@ namespace TrocoATempo
 
         private Vector3 ultimaPosMouse;
         private float rotacaoAtual = 0f;
-        private SpriteRenderer HandPoint;
-        public SpriteRenderer ClosedHand;
-
-        protected void changeSprite()
-        {
-            HandPoint.allowOcclusionWhenDynamic = false;
-            ClosedHand.enabled = true;
-        }
+        public GameObject ClosedHand, HandPoint;
 
         void Start()
         {
             ultimaPosMouse = Input.mousePosition;
-            HandPoint = GetComponent<SpriteRenderer>();
-            ClosedHand = GetComponent<SpriteRenderer>();
-            ClosedHand.enabled = false;
         }
 
-        void Update()
+        async Task Update()
         {
             // Posição do mouse no mundo
             Vector3 posMouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -40,9 +31,14 @@ namespace TrocoATempo
             // Detectar movimento horizontal
             float deltaX = Input.mousePosition.x - ultimaPosMouse.x;
 
-            if (Input.GetMouseButton(0))
+            if (Input.GetMouseButtonDown(0))
             {
-                changeSprite();
+                HandPoint.gameObject.SetActive(false);
+                ClosedHand.gameObject.SetActive(true);
+            }
+            if(Input.GetMouseButtonUp(0)){
+                HandPoint.gameObject.SetActive(true);
+                ClosedHand.gameObject.SetActive(false);
             }
 
             float alvoRotacao = Mathf.Clamp(deltaX, -1f, 1f) * rotacaoMaxima;

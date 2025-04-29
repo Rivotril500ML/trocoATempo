@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cash drawer_0: 2605964811838877254
+      cash drawer_1: 2447033280744943821
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
