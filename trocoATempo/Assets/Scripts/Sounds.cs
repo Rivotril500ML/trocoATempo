@@ -7,10 +7,10 @@ namespace TrocoATempo
         
         public void Iniciar()
         {
-            AudioClip caminhoMP3;
+            //AudioClip caminhoMP3;
         }
         public void Beep(){
-            AudioClip caminhoMP3;
+            //AudioClip caminhoMP3;
         }
     }
 }

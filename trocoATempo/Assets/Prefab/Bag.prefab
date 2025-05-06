@@ -103,6 +103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5128343773216870059}
   - component: {fileID: 1459030573541396204}
+  - component: {fileID: 8474500782440913841}
   m_Layer: 0
   m_Name: Bag
   m_TagString: Untagged
@@ -145,6 +146,23 @@ MonoBehaviour:
   Text_Color: {r: 0.8679245, g: 0.09416164, b: 0.67692226, a: 1}
   TextStyle: 0
   Background_Color: {r: 0.2196079, g: 0.2196079, b: 0.2196079, a: 1}
+--- !u!114 &8474500782440913841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307125445052180889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 817930eaa9de092429e40d58a601474e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotacaoMaxima: 45
+  suavidadeRotacao: 6.5
+  flip: 0
+  ClosedHand: {fileID: 0}
+  HandPoint: {fileID: 0}
 --- !u!1 &1703942288965210866
 GameObject:
   m_ObjectHideFlags: 0
@@ -155,7 +173,6 @@ GameObject:
   m_Component:
   - component: {fileID: 863152967315578737}
   - component: {fileID: 5243968123110380753}
-  - component: {fileID: 4078576649814377327}
   m_Layer: 0
   m_Name: Test
   m_TagString: Untagged
@@ -237,18 +254,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4078576649814377327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1703942288965210866}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dedb621da003e08409decd10103affcc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2510668084732503694
 GameObject:
   m_ObjectHideFlags: 0
